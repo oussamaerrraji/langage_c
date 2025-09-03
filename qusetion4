@@ -1,0 +1,19 @@
+/*
+Écrivez un programme qui demande à l'utilisateur d'entrer un montant en dollars et
+en cents, puis affiche le montant avec une taxe de 5% ajoutée :
+Entrez un montant : 100.00
+Avec taxe ajoutée : $105.00
+*/
+#include <stdio.h> 
+#include<stdlib.h>
+#include<math.h>
+ int main()
+ {
+   int moany;
+   float taxe;
+   printf("enter la montant : ");
+   scanf("%d",&moany);
+   taxe = moany + (moany*5)/100;
+   printf("taxe = %.2f ",taxe);
+   
+ }

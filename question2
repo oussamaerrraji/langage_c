@@ -1,0 +1,44 @@
+/*
+Écrivez un programme qui calcule le volume d'une sphère de 10 mètres de rayon,
+en utilisant la formule v = 4/3πr3 . Écrivez la fraction 4/3 comme 4.0f/3.0f. 
+*/
+#include <stdio.h>
+#include <stdio.h> 
+#include<stdlib.h>
+#include<math.h>
+ int main()
+ {
+     float PI=3.14;
+     float r=10,V;
+     V=(4.0f/3.0f)*PI*r*r*r;
+     printf("determination la volime de spher : \t ");
+     printf("V = %.2f",V);
+ }
+ /*
+ REPONSE
+ veuillez enter la valeur de r 10
+V = 4186.67
+Process returned 0 (0x0)   execution time : 2.122 s
+Press any key to continue.
+*/
+ /*
+ (Essayez de l'écrire comme 4/3. Que se passe-t-il ?)
+*/
+#include <stdio.h> 
+#include<stdlib.h>
+#include<math.h>
+ int main()
+ {
+     float PI=3.14;
+     float r=10,V;
+      V=(4/3)*PI*r*r*r;
+     printf("determination la volime de spher : \t ");
+     printf("V = %.2f",V);
+ }
+ /*
+ REPONSE
+ veuillez enter la valeur de r 10
+V = 3140.00
+Process returned 0 (0x0)   execution time : 3.675 s
+Press any key to continue.
+*/

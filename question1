@@ -1,0 +1,15 @@
+/*
+1. Écrivez un programme qui utilise printf pour afficher l'image suivante à l'écran :
+*/
+#include <stdio.h>
+
+ int main()
+ {
+     printf("1.              *\n");
+     printf("2.            *\n");
+     printf("3.          *\n");
+     printf("4.  *     *\n");
+     printf("5.   *  *\n");
+     printf("6.    *\n");
+     return(0);
+ }

@@ -1,0 +1,16 @@
+/*
+Modifiez le programme du projet 2 pour qu'il demande à l'utilisateur d'entrer le rayon
+de la sphère.
+*/
+#include <stdio.h>
+#include<stdlib.h>
+#include<math.h>
+ int main()
+ {
+     float PI=3.14;
+     float r,V;
+     printf("veuillez enter la valeur de r ");
+     scanf("%f",&r);
+     V=(4/3)*PI*r*r*r;
+     printf("V = %.2f",V);
+ }
