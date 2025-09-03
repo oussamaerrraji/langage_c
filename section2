@@ -1,0 +1,20 @@
+// 2. Considérez le programme suivant :
+#include <stdio.h>
+int main(void)
+{
+printf("Parkinson's Law:\nWork expands so as to ");
+printf("fill the time\n");
+printf("available for its completion.\n");
+return 0;
+}
+/* 
+Questions :
+(a) Identifiez les directives et les instructions dans ce programme.
+#include<stdio.h> : declarer dans la bibliotheque pour utiliser printf,
+main(void) : c'est la fonction principale du programme
+printf : afficher la text 
+(b) Quelle est la sortie du programme ?
+Parkinson's Law:
+Work expands so as to fill the time
+available for its completion.
+*/

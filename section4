@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(void)
+{
+   int q,p;
+   int answer;
+    answer=(3*q-p*p)/3;
+    printf("answer = ",answer);
+    return 0;
+}
+/*
+reponse :
+8. Combien de jetons y a-t-il dans l'instruction suivante ?
+ 14 jetons
+9. Insérez des espaces entre les jetons de l'exercice 8 pour rendre l'instruction plus
+facile à lire.
+Ca n'affecte pas sur la progrrame,
+10. Dans le programme dweight.c (Section 1.4), quels espaces sont essentiels ?
+pas compris, 
+*/

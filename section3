@@ -1,0 +1,56 @@
+/*
+3. Condensez le programme dweight.c en remplaçant les affectations de height,
+length, et width par des initialisations et (2) en supprimant la variable weight, en
+calculant plutôt (volume + 165) / 166 dans le dernier printf.
+3. Écrivez un programme qui déclare plusieurs variables int et float — sans les
+initialiser — puis affiche leurs valeurs. Y a-t-il un schéma dans les valeurs ? (Il n'y
+en a généralement pas.)
+*/
+/* Computes the dimensional weight of a 12"x10"x8" box */
+#include <stdio.h>
+int main(void) {
+int height, length, width, volume, weight;
+height = 8;
+length = 12;
+width = 10;
+
+ volume = height * length * width;
+ weight = (volume + 165) / 166;
+
+ printf("Dimensions: %dx%dx%d\n", length, width, height);
+ printf("Volume (cubic inches): %d\n", volume);
+printf("Dimensional weight (pounds): %d\n", weight);
+return 0;
+}
+/*
+reponse Question 1: 
+
+#include <stdio.h>
+int main(void)
+{
+int height, length, width, volume;
+height = 8;
+length = 12;
+width = 10;
+ volume = height * length * width;
+ printf("Dimensions: %dx%dx%d\n", length, width, height);
+ printf("Volume (cubic inches): %d\n", volume);
+ printf("Dimensional weight (pounds): %d\n",(volume + 165) / 166);
+ return 0;
+}
+ */
+/*
+reponse question 2 
+
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    float X, Y, Z;
+
+    printf("Int values: %d %d %d\n", a, b, c);
+    printf("Float values: %f %f %f\n", X, Y, Z);
+
+    return 0;
+}
+*/

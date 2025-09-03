@@ -1,0 +1,11 @@
+// 1. Créez et exécutez, le célèbre programme "hello, world" de Kernighan et Ritchie :
+
+#include <stdio.h>
+int main(void)
+{
+printf("hello, world\n");
+return 0;
+}
+/* Question : Obtenez-vous un message d'avertissement du compilateur ? Si oui, que
+faut-il faire pour le faire disparaître ? */
+/* reponse : non  */
